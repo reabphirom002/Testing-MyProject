@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestingMyProject">
         <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAcitvity"
+            android:exported="false"
+            android:theme="@style/Theme.TestingMyProject" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
